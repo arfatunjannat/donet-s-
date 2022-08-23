@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ----------header part----------- */
+
+    
+.main-header{
+    background-image: url('images/donation3.jpg');
+    padding: 200px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100%;
+    
+}
+.main-a-h1{
+    color: red;
+    text-align: center;
+    padding: 90px;
+    font-size: 50px;
+}
+.header-h1{
+    font-size: 75px;
+    color: white;
+    text-align: center;
+}
+.header-h1:hover{
+    color: red;
+}
+.header-p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.header-p:hover{
+    color: red;
+}
+
+.header-button{
+    background-color: rgb(240, 61, 61);
+    padding: 15px;
+    color: white;
+    border-radius: 7px;
+    border: 1px solid azure;
+    cursor: auto;
+    margin-left: 450px;
+}
+.header-button:hover{
+    background-color: aqua;
+}
+/* donate today */
+.main-donate{
+    display: flex;
+    justify-content: center;
+}
+.donate-card-one{
+   padding: 35px; 
+   margin: 10px;
+   background-color: rgba(244, 238, 238, 0.856);
+   width: 50px;
+   border-radius: 5px;
+}
+.donate-card-one:hover{
+    background-color: rgba(239, 226, 211, 0.884);
+    border: 1px solid red;
+}
+h3:hover{
+    color: red;
+}
+/* hr option */
+.hr-text{
+    margin-top: 50px;
+text-align: center;
+color: gray;
+font-size: 12px;
+padding: 8px;
+}
+hr{
+    width: 50%;
+    margin-left: 370px;
+    color: grey;
+    
+}
+.hr-button{
+    background-color: rgb(240, 61, 61);
+    padding: 15px;
+    color: white;
+    border-radius: 7px;
+    border: 1px solid azure;
+    cursor: auto;
+    margin-left: 700px;
+}
+.hr-button:hover{
+    background-color: aqua;
+}
+.btn-div{
+    margin-top: 9px;
+    padding: 7px;
+}
+/*  our donate plan  */
+.card-head-text{
+    text-align: center;
+    padding: 30px;
+    margin: 25px;
+}
+.card-head-text-one{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    padding: 15px;
+}
+.card-one{
+    background-color: rgb(193, 237, 237);
+    border: 1px gray;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.card-img{
+   
+    text-align: center;
+    padding: 10px;
+    
+}
+.card-text{
+   margin: 5px;
+   padding: 10px;
+}
+.card-text-h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-text-p{
+    font-size: 10px;
+    font-weight: 400;
+}
+/* card-two */
+.card-two{
+    background-color: rgb(90, 206, 166);
+    border: 1px gray;
+    border-radius: 5px;
+    margin: 7px;
+    text-align: center;
+}
+.card-img-two{
+    
+    padding: 10px;
+    width: 70px;
+    
+}
+.card-text-two{
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    
+}
+.card-text-h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-text-p{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+/* three card */
+.card-three{
+    background-color: rgb(122, 176, 227);
+    border: 1px gray;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.card-img-three{
+    margin-left: 180px;
+    padding: 10px;
+    
+}
+.card-text-three{
+   margin: 5px;
+   padding: 10px;
+}
+.card-text-h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-text-p{
+    font-size: 10px;
+    font-weight: 400;
+}
+/* first flex part */
+.main-part-flex{
+    display: flex;
+    
+}
+.flex-img{
+    width: 600px;
+    height: 400px;
+    margin-left: 100px;
+    padding: 40px;
+}
+.text-area-flex{
+    padding: 40px;
+    text-align: start;
+    margin-top: 20px;
+    
+}
+.flex-h1{
+    font-size: 50px;
+    padding: 5px;
+}
+.flex-p{
+    color: gray;
+    font-size: 14px;
+    padding: 4px;
+    margin-bottom: 4px;
+}
+/* second flex part */
+.main-part-flex-two{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.flex-img-two{
+    width: 600px;
+    height: 400px;
+    margin-left: 100px;
+    padding: 40px;
+}
+.text-area-flex-two{
+    padding: 40px;
+    text-align: start;
+    margin-top: 20px;
+    
+}
+.flex-h1{
+    font-size: 50px;
+    padding: 5px;
+}
+
+.flex-p{
+    color: gray;
+    font-size: 14px;
+    padding: 4px;
+    margin-bottom: 4px;
+}
+/* about-tina */
+.about-tina{
+    background-color: black;
+    width: 900px;
+    height: 450px;
+    padding: 35px;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 99%);
+    margin-left: 300px;
+}
+.about-tina:hover{
+    background-color: rgb(122, 239, 239);
+}
+.a-tina{
+    border: 3px dotted white;
+   
+}
+.tina-img{
+    width: 250px;
+    margin-left: 350px;
+    padding: 10px;
+}
+.tina-h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 5px;
+}
+.tina-h1:hover{
+    color: red;
+}
+.tina-p{
+    color: white;
+    font-family: 14px;
+    text-align: start;
+    padding: 7px;
+}
+.tina-p:hover{
+    color: red;
+}
+
+/* get my update */
+.text-box{
+background-color: rgb(242, 224, 206);
+margin-left: 500px;
+border-radius:5px;
+width: 500px;
+height: 150px;
+padding: 30px;
+
+}
+.text-box-one{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.text{
+    background-color: azure;
+   
+    padding: 5px;
+}
+.all-button{
+    background-color: red;
+    padding: 15px;
+    color: white;
+    border-radius: 1px;
+    border: 1px solid azure;
+    cursor: auto;
+
+}
+.all-button:hover {
+    background-color: green;
+  }
+/* footer--------------- */
+.footer{
+   background-color: black; 
+   padding: 120px;
+   margin-bottom: 0px;
+   margin-top: 70px;
+}
+.footer-text{
+    text-align: center;
+    margin-left: 100px;
+    color:red;
+    text-decoration: double;
+    text-shadow: 5px;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800px;
+   
+}
+.footer-text-one{
+    text-align: center;
+    margin-left: 100px;
+  color: gray;
+  font-size: 12px;
+}
